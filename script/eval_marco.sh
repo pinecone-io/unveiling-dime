@@ -35,10 +35,9 @@ ZERO_DIMS=(
   "0.8"
 )
 PRF_KS=(
-  # "1"
-  # "2"
-  # "5"
-  "10"
+  "1"
+  "2"
+  "5"
 )
 
 # 3. Loop over each model and dataset
