@@ -1,0 +1,219 @@
+156493,do goldfish grow,"Yes, goldfish do grow. The size they grow to can depend on various factors like their species, habitat, diet, and health. Some species of goldfish can grow up to 1 foot or even larger in the right conditions. It is actually a common misconception that goldfish will only grow to the size of their tank; while their environment can impact their size, it is not a definitive limit on their growth."
+1110199,what is wifi vs bluetooth,"WiFi and Bluetooth are both wireless communication technologies but they are designed for different purposes.
+
+WiFi:
+1. WiFi is primarily used to provide wireless internet access within a certain range (typically within a building or campus). It uses high frequency radio waves to transmit data between devices and to the internet. 
+2. It provides high-speed connectivity, essential for streaming, online gaming and other internet activities.
+3. It requires more power, hence not ideal for battery-operated devices as it drains battery life quickly.
+4. It can accommodate a large number of connections simultaneously.
+
+Bluetooth:
+1. Bluetooth is used for connecting devices over short distances, typically under 30 feet. It's used for transferring data between devices such as connecting your smartphone to your car or a wireless keyboard to your computer.
+2. It doesn't offer the high-speed connectivity that WiFi does, but for many devices, it doesn’t need to. 
+3. It uses less power and hence is ideal for battery-operated devices.
+4. It generally can connect only a few devices at a time."
+1063750,why did the us volunterilay enter ww1,"The U.S. officially entered WW1 for several reasons:
+
+1. Unrestricted Submarine Warfare: Germany had declared unrestricted submarine warfare in the Atlantic, and their U-boats sank several U.S. ships, including the passenger ship, The Lusitania, which resulted in the death of many American civilians.
+
+2. The Zimmermann Telegram: In 1917, British intelligence intercepted a telegram from the German Foreign Secretary Arthur Zimmermann to Mexico, proposing a military alliance against the U.S. The British government handed the telegram to the U.S. government, sparking public outrage in the U.S.
+
+3. Economic Reasons: The U.S. had lent enormous sums of money to the Allies (Britain, France, and Russia), which would not be repaid if the Central Powers (Germany, Austria-Hungary, and Turkey) were to win the war. 
+
+4. Ideological Reason: President Woodrow Wilson promoted the idea of making the world ""safe for democracy."" Entering the war was sold as a way for the U.S. to promote and protect democracy.
+
+So, while it might seem that the U.S. voluntarily entered WW1, their hand was forced by both violent actions against them and economic and ideological motivations."
+130510,definition declaratory judgment,"A declaratory judgment is a ruling made by a court to define the legal relationship between different parties and to clarify their respective rights and obligations. It is often sought in cases involving contracts, constitutional rights, or other legal issues where one party wants a definitive official ruling on the status of the situation but does not necessarily seek damages or enforcement action. This type of judgment is legally binding but does not require either party to take action. Rather, it provides a clear understanding of the legal position and could prevent further disputes or litigation in the future."
+489204,right pelvic pain causes,"1. Kidney Stones: These are hard deposits that form inside your kidneys, causing pain when they pass through the urinary tract. 
+
+2. Appendicitis: This is an inflammation of the appendix, a finger-like gland located where the large and small intestines come together. 
+
+3. Ovarian Cysts: These fluid-filled sacs can form in or on the ovaries, causing sharp or dull pain on one side of the lower abdomen or pelvis. 
+
+4. Ectopic Pregnancy: This occurs when a fertilized egg implants outside of the uterus, often in a fallopian tube. As it grows, it can cause severe pain.
+
+5. Pelvic inflammatory disease (PID): An infection of the reproductive organs can cause pain and tenderness in the pelvic region.
+
+6. Gastrointestinal problems: Issues like diverticulitis, irritable bowel syndrome, and intestinal obstruction can also cause right pelvic pain. 
+
+7. Endometriosis: A condition where tissue similar to the lining of the uterus begins to grow outside the uterus, causing pain and potentially other symptoms.
+
+8. Uterine fibroids: These noncancerous growths in the uterus can cause pain or pressure in the pelvic area.
+
+9. Hernia: A weakness or tear in the abdominal wall can allow tissue or organs to bulge through, causing pain.
+
+10. Urinary tract infections: An infection in any part of the urinary system — kidneys, bladder, ureters, and urethra can cause pelvic pain.
+
+Remember: It's important to seek medical attention if you're experiencing severe or ongoing pelvic pain."
+573724,what are the social determinants of health,"The social determinants of health are conditions in the environments in which individuals are born, live, learn, work, play, worship, and age that impact a wide range of health, functioning, and quality-of-life outcomes and risks. These conditions can be categorized into five key areas:
+
+1. Economic Stability: This refers to employment, income, expenses, debt, and medical bills.
+
+2. Neighborhood and Physical Environment: Refers to the safety of the neighborhood and the quality of housing, as well as accessibility to nutritious food, parks, and walkability of the neighborhood.
+
+3. Education: Includes literacy, language, early childhood education, vocational training, and higher education.
+
+4. Social and Community Context: This refers to the available social structures and norms, including factors such as social cohesion, community support, discrimination, stress, civic participation, incarceration, and the presence of violence.
+
+5. Health and Health Care: This refers to the access and quality of health care, health literacy, and health insurance.
+ 
+6. Food: The accessibility and availability of quality food, food insecurity.
+
+7. Added to these are some other factors like cultural norms and values, political systems, and public policies which can affect health outcomes directly or indirectly."
+168216,does legionella pneumophila cause pneumonia,"Yes, Legionella pneumophila is a type of bacterium that is one of the primary causes of a severe type of pneumonia known as Legionnaires' disease."
+1133167,how is the weather in jamaica,"As an AI model developed by OpenAI, I don't have real-time data. However, generally, Jamaica experiences tropical climate. Average temperature year-round ranges between 80°F and 86°F. It has two rainy seasons from May to June and September to November. Hurricanes may occur between June and November. Always check the current forecast online or via a reliable weather application for the most accurate information."
+527433,types of dysarthria from cerebral palsy,"1. Spastic Dysarthria: Most common among individuals with cerebral palsy, this type of dysarthria stems from damage to the motor pathways. It results in stiff, tight muscle tone and difficulty controlling movements.
+
+2. Ataxic Dysarthria: This occurs when there is damage to the cerebellum, causing issues with coordination and accurate movement. Speech may sound irregular and uneven.
+
+3. Hypokinetic Dysarthria: Less common in cerebral palsy, it is marked by rigidity and reduced range of motion. Patients with this type can exhibit a rapid, quiet, and mumbling speech.
+
+4. Hyperkinetic Dysarthria: Induced by damage to the basal ganglia control circuit, the characteristics include involuntary movements, variable speech rate and volume, and a harsh vocal quality.
+
+5. Flaccid Dysarthria: This subtype is less common in cerebral palsy and is marked by weak, flabby muscle tone. Speech sounds are often breathy and nasal.
+
+6. Mixed Dysarthria: Many people with cerebral palsy can exhibit symptoms of more than one type of dysarthria, hence the term mixed. Spastic-ataxic dysarthria is a common combination.
+
+It's important to note that the manifestation of dysarthria in cerebral palsy can be varying, given the diverse ways in which brain damage can occur and different parts of the brain that can be affected. The management and treatment also depend on the individual's specific symptoms and severity."
+1037798,who is robert gray,"There could be multiple individuals named Robert Gray depending on the context. A few prominent individuals named Robert Gray include:
+
+1. Robert Gray (1755 – 1806): An American merchant sea captain who is known for his exploration of the Pacific Northwest. He was the first to circumnavigate the globe from the United States and named the Columbia River after his ship.
+
+2. Robert Gray (born 1945): An Australian poet, known for his collection of poems named ""Creekwater Journal"".
+
+3. Robert Gray (1809 – 1872): The first Anglican Bishop of Cape Town who helped establish the Church of the Province of South Africa.
+
+Without specific context, however, it's challenging to determine exactly who you're referring to. Please provide more details if possible."
+915593,what types of food can you cook sous vide,"1. Steak: Sous vide provides excellent control over the doneness, making the steak more juicy and tender.
+
+2. Chicken: It maintains the moisture, tenderness, and flavorful taste of the chicken.
+
+3. Eggs: Cooking eggs sous vide allows for precise control over the texture of the yolk.
+
+4. Fish: It prevents the fish from being overcooked and keeps it moist and tender.
+
+5. Pork: With sous vide, you can get perfectly cooked, tender, and flavorful pork chops every time.
+
+6. Vegetables: Cooking vegetables sous vide can maintain their crispness and vibrant colors.
+
+7. Lamb: Lamb shank can be cooked perfectly with this method retaining its flavor and moisture.
+
+8. Duck: Sous vide process can render the fat in duck breasts, making them a perfect medium-rare without overcooking.
+
+9. Ribs: You can cook sous vide ribs for several hours to make them incredibly tender.
+
+10. Desserts: Custards, cheesecakes, and even ice cream base can be cooked sous vide for a creamy, perfect texture.
+
+In addition to these, many other types of meat, fruits, and even certain types of grains can be cooked using the sous vide method."
+264014,how long is life cycle of flea,"The life cycle of a flea can range from a couple of weeks to several months, depending on the environmental conditions. Optimal conditions for fleas are between 70-85°F and 70 percent humidity. In such conditions, they can complete their life cycle in just 18 days."
+1121402,what can contour plowing reduce,"Contour plowing can reduce soil erosion, runoff of water and nutrients, and water pollution. It also improves soil fertility and water conservation."
+962179,when was the salvation army founded,"The Salvation Army was founded on July 2, 1865."
+1117099,what is a active margin,An active margin is a coastal area that is located at the collision point between two lithospheric plates. This margin is often associated with seismic activity such as earthquakes and the formation of volcanoes due to the subduction of one plate under another. Active margins are also typically areas of significant erosion and deposition of sediments.
+148538,difference between rn and bsn,"RN stands for Registered Nurse. This is a nursing professional who has passed the National Council Licensure Examination-Registered Nurse (NCLEX-RN) and has met all the other licensing requirements mandated by their state's nursing board. It typically requires two to three years of nursing education to become an RN.
+
+BSN, on the other hand, stands for Bachelor of Science in Nursing. This is a four-year academic degree in the science and principles of nursing. A BSN program usually includes additional coursework in areas like research, management, and public health. Nurses with a BSN already have an RN license but their additional education can open up more opportunities for leadership positions, certain specialties, or higher pay. 
+
+In summary, the main difference between RN and BSN is their level of education and the opportunities that come with it. Typically, a nurse with a BSN might have more career advancement opportunities compared to an RN without a bachelor's degree."
+451602,medicare's definition of mechanical ventilation,"Mechanical ventilation is a treatment provided to Medicare beneficiaries that involves the use of a machine to assist or replace spontaneous breathing. This can be achieved by a device interface such as a mask or an invasive intervention like a tracheostomy. Medicare considers mechanical ventilation to be medically necessary for patients who have respiratory failure or insufficiency, or those who are unable to remove sufficient carbon dioxide from their bloodstream."
+359349,how to find the midsegment of a trapezoid,"The midsegment (also known as the median) of a trapezoid is a line that connects the midpoints of the non-parallel sides. The length of the midsegment can be calculated using the formula:
+
+Midsegment = (Base1 + Base2) / 2
+
+Where,
+- Base1 and Base2 are the lengths of the parallel sides of the trapezoid.
+
+To find the actual midsegment line, follow these steps:
+
+1. Identify the non-parallel sides of the trapezoid.
+2. Find the midpoint of each of these sides. You can do this by averaging the x and y coordinates of the endpoints of a side, i.e., the midpoint of the side with endpoints (x1, y1) and (x2, y2) is ((x1+x2)/2, (y1+y2)/2).
+3. Draw a line connecting the midpoints of the two non-parallel sides. This line is the midsegment of the trapezoid."
+1115776,what is an aml surveillance analyst,"An AML (Anti-Money Laundering) Surveillance Analyst is a professional who uses various investigative techniques to detect and stop fraudulent financial activities by individuals, organizations, or criminal enterprises. They do this by monitoring and examining complex financial transactions and customer patterns, to identify potential signs of money laundering, terrorist financing, or other suspicious activities. These analysts also ensure compliance with governmental laws and regulations related to AML."
+1112341,what is the daily life of thai people,"Thai people's daily life can vary greatly depending on where they live - in rural areas, the city, or tourist areas. However, there are some common threads that run through.
+
+Thai people typically wake up early and would often start their day with a quick meal that might consist of rice, fish, vegetables, and a hot soup. Many also start their day with Buddhist prayers. Buddhism plays a significant part in their lives and influences many of their activities during the day.
+
+For many, daily life in Thailand involves working from approximately 8 am to 5 pm, in a range of jobs, from farming, fishing, and construction in rural areas, to office jobs, teaching, and service jobs in tourist areas or the cities.
+
+After work, activities depend on their individual interests and where they live. Those in rural areas might tend to socialize locally, focused on community and family. In the cities and tourist areas, you’ll find people shopping in markets, dining out, and socializing at various venues such as bars, movie theaters or night markets. Thai people also enjoy various forms of entertainment including traditional Thai music and dance, as well as football, which is a popular sport.
+
+Family is an essential component of Thai society, and many Thais would spend their evenings with families. Respect for elders is a strong value in Thai culture.
+
+Thai cuisine is a significant part of their culture, and many Thais spend a substantial amount of time cooking and eating. Street food is also widespread and enjoyed by many.
+
+While this is a general overview, it’s important to remember that there is considerable diversity within the country, with different cultural practices and lifestyles depending on factors like ethnicity, geography, and social status."
+131843,definition of a sigmet,"A SIGMET (Significant Meteorological Information) is a weather advisory issued by meteorological offices to provide information on significant weather phenomena that could affect the safety of aircraft operations. These phenomena can include severe turbulence, severe icing, severe thunderstorms, dust storms, sandstorms, volcanic ash, or other potentially hazardous conditions."
+104861,cost of interior concrete flooring,"The cost of interior concrete flooring can vary widely depending on factors like the size of the space, the level of customization, the complexity of the design, and the region in which you live. However, on average, you can expect to pay between $2 and $6 per square foot for basic designs, and up to $15 or more per square foot for more elaborate, custom designs. Keep in mind these are only averages and prices can differ significantly. Always get several quotes and check references before hiring a professional."
+833860,what is the most popular food in switzerland,"The most popular food in Switzerland is Cheese Fondue, a traditional Swiss dish. It is followed by Raclette and Rösti."
+207786,how are some sharks warm blooded,"Unlike most fish, some species of sharks, such as the salmon shark and the great white shark, have developed a mechanism called regional endothermic thermoregulation. This essentially enables them to retain the heat generated by their muscles from constant swimming, and to use that heat to warm their blood and vital organs.
+
+This is achieved through a network of blood vessels in their bodies known as the rete mirabile, which translates to ""wonderful net"". When the warmer blood from the working muscles in their core passes through this network, it heats the colder blood coming in from the gills, which then circulates into the rest of the body.
+
+This adaptation allows these types of sharks to venture into colder waters in search of prey, where other sharks or fish cannot survive. This gives them a significant advantage in terms of available habitats and food sources. 
+
+However, it's important to remember that while these sharks are 'warm-blooded' in a sense, they are not homeothermic like mammals (maintaining a constant body temperature). The temperature of their body can still vary, although not as much as in other fishes."
+1114819,what is durable medical equipment consist of,"Durable Medical Equipment (DME) consists of items that:
+
+1. Are primarily and customarily used to serve a medical purpose.
+2. Are not useful to a person in the absence of illness or injury.
+3. Can withstand repeated usage over a long period of time.
+4. Can be used in the home.
+
+Examples include wheelchairs, hospital beds, oxygen concentrators, insulin pumps, nebulizers, patient lifts, blood glucose monitors, suction machines, walkers, prosthetic devices, orthotic items, crutches, home dialysis machines, and more. All these pieces of equipment are designed to help patients with specific medical conditions or illnesses, manage their health outside the hospital or doctor's office. It also includes the supplies and accessories needed to operate this equipment."
+183378,exons definition biology,"Exons are portions of a gene that are translated into proteins. They are sequences of DNA that contain the instructions for building proteins, the molecules that carry out most of the work in our bodies. The exons are separated by introns, noncoding sections of a gene. During the process of transcription, these segments are spliced out of the messenger RNA (mRNA) molecule, leaving only the exons to be translated into protein."
+1106007,define visceral?,"Visceral refers to deep, inward feelings or emotions rather than to the intellect or outward appearances. It can also relate to the internal organs in the main cavities of the body, especially those in the abdomen."
+1124210,tracheids are part of _____.,xylem
+490595,rsa definition key,"RSA (Rivest-Shamir-Adleman) is a public key encryption method employed by modern computers to encrypt and decrypt messages. It is an asymmetric cryptographic algorithm that uses two keys:
+
+1. Public Key: This key is used for encryption and can be openly distributed and accessible by anyone.
+
+2. Private Key: This key is used for decryption and is kept secret by the user.
+
+The RSA algorithm is based on the computational difficulty of factoring large numbers. As such, the security of RSA encryption is generally considered high because the private key is never openly transmitted, while the public key is used for encryption."
+1103812,who formed the commonwealth of independent states,"The Commonwealth of Independent States (CIS) was formed by Russia, Ukraine, and Belarus on December 8, 1991."
+87181,causes of left ventricular hypertrophy,"1. High blood pressure (Hypertension): This is the most common cause of left ventricular hypertrophy. Prolonged high blood pressure forces the left ventricle to work harder to pump blood, leading to thickening and enlargement of heart muscles. 
+
+2. Aortic valve stenosis: This condition causes the aortic valve (the valve that separates the left ventricle from the aorta) to become narrow. As a result, the left ventricle has to exert more effort to pump blood into the aorta, leading to hypertrophy.
+
+3. Hypertrophic cardiomyopathy: This is a genetic condition in which the heart muscles become abnormally thick, affecting the pumping ability of the heart. 
+
+4. Heart Attack: This may cause the left ventricle to thicken and enlarge as a compensatory mechanism to overcome the loss of pumping ability due to damaged heart muscles.
+
+5. Athlete's heart: In some athletes who engage in long-term intense endurance or resistance training, the heart may adapt to the increased workload by enlarging which sometimes can resemble hypertrophy.
+
+6. Other conditions such as chronic kidney disease, obesity, diabetes, and sleep apnea can also contribute to left ventricular hypertrophy.
+
+Note: It's important to treat these conditions to prevent or manage left ventricular hypertrophy, which can increase the risk of heart failure, sudden cardiac arrest, stroke, and other complications. Regular check-ups and lifestyle modifications like a heart-healthy diet, regular exercise and stress management can be helpful."
+443396,lps laws definition,"LPS (Lanterman-Petris-Short Act) laws refer to legislation passed in California in 1967, dealing with the involuntary civil commitment of individuals diagnosed with mental illness who are a danger to themselves and others or are non-functional and unable to provide for their basic personal needs for food, clothing, or shelter. These laws are aimed at protecting the rights of such individuals by ensuring appropriate mental health care and treatment, while also protecting the community. The Act also sets strict criteria for involuntary detention and treatment, including a judicial review process."
+1121709,what are the three percenters?,"The Three Percenters are a loosely organized American far-right militia movement. The group takes its name from their disputed claim that only three percent of American colonists took up arms against the British during the American Revolution. They advocate for limited government intervention, gun rights, and opposition to perceived overreach by U.S. federal authorities. The Southern Poverty Law Center and Anti-Defamation League categorize them as an extremist or radical right group."
+87452,causes of military suicide,"1. Post-Traumatic Stress Disorder (PTSD): Most military personnel go through traumatic experiences which may lead to PTSD. This disorder often leads to depression and anxiety, which can increase the risk of suicide.
+
+2. Lack of Proper Mental Health Treatment: There is a stigma associated with seeking help for mental health issues in many military environments. This lack of treatment can exacerbate conditions that could lead to suicide.
+
+3. Multiple Deployments and Combat Exposure: Servicemen and women who have been deployed multiple times or have experienced intense combat are at a higher risk of self-harm.
+
+4. Family and Relationship Issues: The stress and uncertainty of military life can contribute to strained relationships or familial instability, which can increase the risk of suicide amongst military personnel.
+
+5. Transitioning into Civilian Life: The stress of readjusting to civilian life after spending time in active duty can be quite overwhelming for some service members and can lead to feelings of isolation and depression.
+
+6. Substance Abuse: Some military personnel may turn to drugs or alcohol as a coping mechanism which can further intensify feelings of depression and suicide.
+
+7. Traumatic Brain Injury: Some service members may undergo brain injuries that affect their mental health, leading to suicidal thoughts.
+
+8. Chronic Pain and Physical Injuries: Physical injuries can also lead to mental health problems like depression and anxiety, which are strong risk factors for suicide.
+
+9. Military Sexual Trauma: This involves any sexual harassment or assault that occurs in the military. It can lead to various psychological issues and increase suicide risk.
+
+10. Job-related Problems: Peer conflicts, disciplinary issues, career disappointment, or removal from a key role are other military-specific problems that may lead to suicide."
+855410,what is theraderm used for,"Theraderm is a range of skincare products that are used for different purposes such as anti-aging, skin smoothening, acne treatment, cleansing, moisturizing, and overall skin revitalization. They include products like creams, lotions, peels, and cleansers. Always consult with a healthcare provider before starting any skincare regimen."
+1114646,what is famvir prescribed for,Famvir (famciclovir) is an antiviral medicine prescribed to treat infections caused by certain types of viruses. This includes outbreaks of herpes simplex (such as cold sores and genital herpes) and shingles (herpes zoster). It is also used to treat repeat outbreaks of herpes virus cold sores or fever blisters and to treat outbreaks of genital herpes.
+19335,anthropological definition of environment,"In anthropology, the environment refers to the physical places, societal structures, cultural practices, and the conditions, relationships, and interactions that a particular group of people inhabit, shape, and are influenced by. It includes natural elements such as plants, animals, weather, and landscapes, as well as human-made elements such as buildings, roads, tools, and technologies. Thus, it not only pertains to the biophysical surroundings but also the social, cultural, economic, and political aspects that impact human life and behavior."
+47923,axon terminals or synaptic knob definition,"Axon terminals, also known as synaptic knobs, are the bulbous endings of the axon where it connects to a target cell and transmits signals to that cell. They contain neurotransmitters that are released into the synaptic cleft during synaptic transmission, thus playing a key role in communication between neurons."
+405717,is cdg airport in main paris,"No, Charles de Gaulle Airport (CDG) is not in main Paris. It is located in Roissy, which is approximately 25 kilometers northeast of central Paris. However, it is easily accessible by public transport from the city."
+182539,example of monotonic function,"A function f(x) = x^2 is a monotonic function when x is greater than or equal to 0. This means that as x increases, f(x) also increases."
+1113437,what is physical description of spruce,"Spruce trees are large, evergreen trees that usually grow to between 20 and 60 meters tall, although some species can reach heights up to 95 meters. They have a conical shape with a straight trunk and a narrow crown, often resembling a perfect triangle. Their bark is thin and flaky, peeling off in small, circular plates.
+
+Spruce trees have needle-like leaves that are attached singly to the branches in a spiral fashion. The needles are typically sharp, ranging in color from bright green to bluish-green. The cones of a spruce tree hang downwards and have thin, flexible scales. 
+
+The branches are often dense and grow in a horizontal pattern. Spruce trees are famous for their symmetrical shape and dense foliage, which is often used for privacy screens in landscaping. Their wood is hard and durable, usually pale yellow or white in color."
+1129237,hydrogen is a liquid below what temperature,-252.87 degrees Celsius or -423.17 degrees Fahrenheit
+146187,difference between a mcdouble and a double cheeseburger,"The main difference between a McDonald's McDouble and a Double Cheeseburger is the number of cheese slices. A McDouble has two beef patties and only one slice of cheese, while a Double Cheeseburger has two beef patties and two slices of cheese. Other than the cheese, the rest of the ingredients are the same – onions, pickles, ketchup, and mustard on a toasted bun."
