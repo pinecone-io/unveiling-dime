@@ -2,23 +2,20 @@
 BATCH_SIZE=100000
 # 1. Define an array of model names
 MODEL_NAMES=(
-  # nomic-ai/nomic-embed-text-v1.5
-  # BAAI/bge-multilingual-gemma2
-  # Alibaba-NLP/gte-Qwen2-1.5B-instruct
-  # BAAI/bge-m3
-  # Shitao/RetroMAE_MSMARCO_distill
-  # done
-  # mixedbread-ai/mxbai-embed-large-v1
-  # "intfloat/multilingual-e5-large"
-  # "facebook/contriever-msmarco"
-  # "sentence-transformers/msmarco-distilbert-base-tas-b"
-  # "sentence-transformers/msmarco-roberta-base-ance-firstp"
-
-    # re-done
-  # mixedbread-ai/mxbai-embed-large-v1 # add query prompt
-  # "intfloat/multilingual-e5-large" # add query/passageprompt
-  "Snowflake/snowflake-arctic-embed-l-v2.0" # add query prompt
-
+  # M3
+  BAAI/bge-m3
+  # mxbai
+  mixedbread-ai/mxbai-embed-large-v1
+  # E5  
+  "intfloat/multilingual-e5-large"
+  # Snowflake
+  "Snowflake/snowflake-arctic-embed-l-v2.0"
+  # ANCE
+  "sentence-transformers/msmarco-roberta-base-ance-firstp"
+  # Contriever
+  "facebook/contriever-msmarco"
+  # TAS-B
+  "sentence-transformers/msmarco-distilbert-base-tas-b"
 )
 
 

@@ -2,14 +2,22 @@
 
 # 1. Define an array of model names
 MODEL_NAMES=(
-  # "facebook/contriever-msmarco"
-  "sentence-transformers/msmarco-distilbert-base-tas-b"
-  # "sentence-transformers/msmarco-roberta-base-ance-firstp"
-  # "intfloat/multilingual-e5-large"
+  # M3
+  BAAI/bge-m3
+  # mxbai
+  mixedbread-ai/mxbai-embed-large-v1
+  # E5  
+  "intfloat/multilingual-e5-large"
+  # Snowflake
   "Snowflake/snowflake-arctic-embed-l-v2.0"
-  # mixedbread-ai/mxbai-embed-large-v1
-  # BAAI/bge-m3
+  # ANCE
+  "sentence-transformers/msmarco-roberta-base-ance-firstp"
+  # Contriever
+  "facebook/contriever-msmarco"
+  # TAS-B
+  "sentence-transformers/msmarco-distilbert-base-tas-b"
 )
+
 DATASET_IDS=(
   "msmarco-passage"
 )
@@ -48,9 +56,9 @@ for MODEL_NAME in "${MODEL_NAMES[@]}"; do
       ir_datasets export ${QUERY_ID} qrels --format trec > "${QRELS_FILE}"
       
       TREC_DIR="runs/${SAFE_MODEL_NAME}/${SAFE_DATASET_ID}/${SAFE_QUERY_NAME}"
-      # TREC_FILE="${TREC_DIR}/0.trec"
-      # echo "Running eval for: ${TREC_FILE}"
-      # trec_eval -m ndcg_cut.10 "${QRELS_FILE}" "${TREC_FILE}"
+      TREC_FILE="${TREC_DIR}/0.trec"
+      echo "Running eval for: ${TREC_FILE}"
+      trec_eval -m ndcg_cut.10 "${QRELS_FILE}" "${TREC_FILE}"
       
       for ZERO_DIM in "${ZERO_DIMS[@]}"; do
         for PRF_K in "${PRF_KS[@]}"; do

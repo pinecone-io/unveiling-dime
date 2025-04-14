@@ -2,9 +2,8 @@
 
 # 1. Define an array of model names
 MODEL_NAMES=(
-  # "sentence-transformers/msmarco-distilbert-base-tas-b"
+  "sentence-transformers/msmarco-distilbert-base-tas-b"
   "Snowflake/snowflake-arctic-embed-l-v2.0"
-  # "intfloat/multilingual-e5-large"
 )
 DATASET_IDS=(
   "beir/arguana"

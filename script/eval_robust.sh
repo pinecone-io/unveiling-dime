@@ -2,18 +2,22 @@
 
 # 1. Define an array of model names
 MODEL_NAMES=(
-  # "facebook/contriever-msmarco"
-  # "sentence-transformers/msmarco-distilbert-base-tas-b"
-  # "sentence-transformers/msmarco-roberta-base-ance-firstp"
-  # BAAI/bge-m3
-  # mixedbread-ai/mxbai-embed-large-v1 # add query prompt
-  "intfloat/multilingual-e5-large" # add query/passageprompt
-  # "Snowflake/snowflake-arctic-embed-l-v2.0" # add query prompt
-
-  # "sentence-transformers/msmarco-distilbert-base-tas-b"
-  # "facebook/contriever-msmarco"
-  # "sentence-transformers/msmarco-roberta-base-ance-firstp"
+  # M3
+  BAAI/bge-m3
+  # mxbai
+  mixedbread-ai/mxbai-embed-large-v1
+  # E5  
+  "intfloat/multilingual-e5-large"
+  # Snowflake
+  "Snowflake/snowflake-arctic-embed-l-v2.0"
+  # ANCE
+  "sentence-transformers/msmarco-roberta-base-ance-firstp"
+  # Contriever
+  "facebook/contriever-msmarco"
+  # TAS-B
+  "sentence-transformers/msmarco-distilbert-base-tas-b"
 )
+
 DATASET_IDS=(
   "disks45/nocr/trec-robust-2004"
 )

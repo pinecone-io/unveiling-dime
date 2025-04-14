@@ -2,26 +2,21 @@
 BATCH_SIZE=100000
 # 1. Define an array of model names
 MODEL_NAMES=(
-  # nomic-ai/nomic-embed-text-v1.5
-  # BAAI/bge-multilingual-gemma2
-  # Alibaba-NLP/gte-Qwen2-1.5B-instruct
-  # BAAI/bge-m3
-  # Shitao/RetroMAE_MSMARCO_distill
-  # done
-  # mixedbread-ai/mxbai-embed-large-v1
-  # "intfloat/multilingual-e5-large"
-  # "facebook/contriever-msmarco"
+  # M3
+  BAAI/bge-m3
+  # mxbai
+  mixedbread-ai/mxbai-embed-large-v1
+  # E5  
+  "intfloat/multilingual-e5-large"
+  # Snowflake
+  "Snowflake/snowflake-arctic-embed-l-v2.0"
+  # ANCE
+  "sentence-transformers/msmarco-roberta-base-ance-firstp"
+  # Contriever
+  "facebook/contriever-msmarco"
+  # TAS-B
   "sentence-transformers/msmarco-distilbert-base-tas-b"
-  # "sentence-transformers/msmarco-roberta-base-ance-firstp"
-# mixedbread-ai/mxbai-embed-large-v1 # add query prompt
-"Snowflake/snowflake-arctic-embed-l-v2.0" # add query prompt
-    # re-done
-  
-  # "intfloat/multilingual-e5-large" # add query/passageprompt
-  
-
 )
-
 
 # 1. Define model-specific parameters in an associative array
 declare -A GENERATE_EMBEDDINGS_PARAMS
@@ -72,13 +67,17 @@ for MODEL_NAME in "${MODEL_NAMES[@]}"; do
     echo "  Dataset ID: ${DATASET_ID}"
     echo "  Parameters: ${PARAMS}"
 
-    # eval python tool/generate_embeddings.py \
-    #   --model_name "${MODEL_NAME}" \
-    #   --dataset_id "${DATASET_ID}" \
-    #   --batch_size "${BATCH_SIZE}" \
-    #   --flush_size 1000000 \
-    #   --output_dir "output" \
-    #   ${PARAMS}
+    if [[ "$*" != *"-skip-embed"* ]]; then
+      eval python tool/generate_embeddings.py \
+      --model_name "${MODEL_NAME}" \
+      --dataset_id "${DATASET_ID}" \
+      --batch_size "${BATCH_SIZE}" \
+      --flush_size 1000000 \
+      --output_dir "output" \
+      ${PARAMS}
+    else
+      echo "Skipping embeddings generation (-skip-embed flag detected)"
+    fi
 
     echo "---------------------------------------------------"
 
@@ -91,9 +90,14 @@ for MODEL_NAME in "${MODEL_NAMES[@]}"; do
     INPUT_DIR="output/${SAFE_MODEL_NAME}/${SAFE_DATASET_ID}/"
     OUTPUT_DIR="output/${SAFE_MODEL_NAME}/${SAFE_DATASET_ID}/index/"
 
-    # eval python tool/index_embeddings.py \
-    #   --input_dir "${INPUT_DIR}" \
-    #   --output_dir "${OUTPUT_DIR}"
+    if [[ "$*" != *"-skip-index"* ]]; then
+      eval python tool/index_embeddings.py \
+        --input_dir "${INPUT_DIR}" \
+        --output_dir "${OUTPUT_DIR}"
+    else
+      echo "Skipping FAISS indexing (-skip-index flag detected)"
+    fi
+
     echo "---------------------------------------------------"
     for QUERY_ID in "${QUERY_IDS[@]}"; do
       SAFE_QUERY_NAME=${QUERY_ID//\//_}
@@ -104,19 +108,6 @@ for MODEL_NAME in "${MODEL_NAMES[@]}"; do
 
       TREC_FILE="${TREC_DIR}/0.trec"
       PARAMS="${QUERY_PARAMS[$MODEL_NAME]}"
-
-      echo "Running query with:"
-      echo "  ZERO_DIM: 0"
-      echo "  Parameters: ${PARAMS}"
-
-      # eval python tool/query.py \
-      #   --ir-ds-query-path "${QUERY_ID}" \
-      #   --output-trec-name "${TREC_FILE}" \
-      #   --index-dir "${OUTPUT_DIR}" \
-      #   --zero-out-dims 0 \
-      #   --top-k 10 \
-      #   --model ${MODEL_NAME} \
-      #   ${PARAMS}
 
       for ZERO_DIM in "${ZERO_DIMS[@]}"; do
         for PRF_K in "${PRF_KS[@]}"; do

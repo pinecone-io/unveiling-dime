@@ -2,20 +2,21 @@
 BATCH_SIZE=100000
 # 1. Define an array of model names
 MODEL_NAMES=(
-  # nomic-ai/nomic-embed-text-v1.5
-  # BAAI/bge-multilingual-gemma2
-  # Alibaba-NLP/gte-Qwen2-1.5B-instruct
+  # M3
   BAAI/bge-m3
-  # Shitao/RetroMAE_MSMARCO_distill
-  # done
+  # mxbai
   mixedbread-ai/mxbai-embed-large-v1
-  "Snowflake/snowflake-arctic-embed-l-v2.0"
+  # E5  
   "intfloat/multilingual-e5-large"
-  # "facebook/contriever-msmarco"
-  # "sentence-transformers/msmarco-distilbert-base-tas-b"
-  # "sentence-transformers/msmarco-roberta-base-ance-firstp"
+  # Snowflake
+  "Snowflake/snowflake-arctic-embed-l-v2.0"
+  # ANCE
+  "sentence-transformers/msmarco-roberta-base-ance-firstp"
+  # Contriever
+  "facebook/contriever-msmarco"
+  # TAS-B
+  "sentence-transformers/msmarco-distilbert-base-tas-b"
 )
-
 
 # 1. Define model-specific parameters in an associative array
 declare -A GENERATE_EMBEDDINGS_PARAMS
@@ -72,13 +73,18 @@ for MODEL_NAME in "${MODEL_NAMES[@]}"; do
     echo "  Dataset ID: ${DATASET_ID}"
     echo "  Parameters: ${PARAMS}"
 
-    # python tool/generate_embeddings.py \
-    #   --model_name "${MODEL_NAME}" \
-    #   --dataset_id "${DATASET_ID}" \
-    #   --batch_size "${BATCH_SIZE}" \
-    #   --flush_size 1000000 \
-    #   --output_dir "output" \
-    #   ${PARAMS}
+    if [[ "$*" != *"-skip-embed"* ]]; then
+      eval python tool/generate_embeddings.py \
+      --model_name "${MODEL_NAME}" \
+      --dataset_id "${DATASET_ID}" \
+      --batch_size "${BATCH_SIZE}" \
+      --flush_size 1000000 \
+      --output_dir "output" \
+      ${PARAMS}
+    else
+      echo "Skipping embeddings generation (-skip-embed flag detected)"
+    fi
+
 
     echo "---------------------------------------------------"
 
@@ -91,9 +97,14 @@ for MODEL_NAME in "${MODEL_NAMES[@]}"; do
     INPUT_DIR="output/${SAFE_MODEL_NAME}/${SAFE_DATASET_ID}/"
     OUTPUT_DIR="output/${SAFE_MODEL_NAME}/${SAFE_DATASET_ID}/index/"
 
-    # python tool/index_embeddings.py \
-    #   --input_dir "${INPUT_DIR}" \
-    #   --output_dir "${OUTPUT_DIR}"
+    if [[ "$*" != *"-skip-index"* ]]; then
+      eval python tool/index_embeddings.py \
+        --input_dir "${INPUT_DIR}" \
+        --output_dir "${OUTPUT_DIR}"
+    else
+      echo "Skipping FAISS indexing (-skip-index flag detected)"
+    fi
+
     echo "---------------------------------------------------"
     for QUERY_ID in "${QUERY_IDS[@]}"; do
       SAFE_QUERY_NAME=${QUERY_ID//\//_}

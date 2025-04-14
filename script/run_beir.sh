@@ -2,9 +2,8 @@
 BATCH_SIZE=1000
 # 1. Define an array of model names
 MODEL_NAMES=(
-  # "sentence-transformers/msmarco-distilbert-base-tas-b"
+  "sentence-transformers/msmarco-distilbert-base-tas-b"
   "Snowflake/snowflake-arctic-embed-l-v2.0"
-  # "intfloat/multilingual-e5-large"
 )
 
 
@@ -25,30 +24,30 @@ QUERY_PARAMS["BAAI/bge-multilingual-gemma2"]="--normalize_embeddings --query-pro
 QUERY_PARAMS["BAAI/bge-m3"]="--normalize_embeddings"
 
 DATASET_IDS=(
-  # "beir/arguana"
-  # "beir/climate-fever"
-  # "beir/dbpedia-entity/test"
+  "beir/arguana"
+  "beir/climate-fever"
+  "beir/dbpedia-entity/test"
   "beir/fever/test"
-  # "beir/fiqa/test"
-  # "beir/hotpotqa/test"
-  # "beir/nfcorpus/test"
-  # "beir/nq"
-  # "beir/quora/test"
-  # "beir/scidocs"
-  # "beir/scifact/test"
-  # "beir/trec-covid"
-  # "beir/webis-touche2020/v2"
+  "beir/fiqa/test"
+  "beir/hotpotqa/test"
+  "beir/nfcorpus/test"
+  "beir/nq"
+  "beir/quora/test"
+  "beir/scidocs"
+  "beir/scifact/test"
+  "beir/trec-covid"
+  "beir/webis-touche2020/v2"
 )
 
 ZERO_DIMS=(
-  # "0.2"
-  # "0.4"
+  "0.2"
+  "0.4"
   "0.6"
-  # "0.8"
+  "0.8"
 )
 PRF_KS=(
-  # "1"
-  # "2"
+  "1"
+  "2"
   "5"
 )
 
@@ -63,14 +62,14 @@ for MODEL_NAME in "${MODEL_NAMES[@]}"; do
     echo "  Dataset ID: ${DATASET_ID}"
     echo "  Parameters: ${PARAMS}"
 
-    # eval python tool/generate_embeddings.py \
-    #   --model_name "${MODEL_NAME}" \
-    #   --dataset_id "${DATASET_ID}" \
-    #   --batch_size "${BATCH_SIZE}" \
-    #   --flush_size 1000000 \
-    #   --output_dir "output" \
-    #   --use_title \
-    #   ${PARAMS}
+    eval python tool/generate_embeddings.py \
+      --model_name "${MODEL_NAME}" \
+      --dataset_id "${DATASET_ID}" \
+      --batch_size "${BATCH_SIZE}" \
+      --flush_size 1000000 \
+      --output_dir "output" \
+      --use_title \
+      ${PARAMS}
 
     echo "---------------------------------------------------"
 
@@ -83,10 +82,10 @@ for MODEL_NAME in "${MODEL_NAMES[@]}"; do
     INPUT_DIR="output/${SAFE_MODEL_NAME}/${SAFE_DATASET_ID}/"
     OUTPUT_DIR="output/${SAFE_MODEL_NAME}/${SAFE_DATASET_ID}/index/"
 
-    # eval python tool/index_embeddings.py \
-    #   --input_dir "${INPUT_DIR}" \
-    #   --output_dir "${OUTPUT_DIR}"
-    # echo "---------------------------------------------------"
+    eval python tool/index_embeddings.py \
+      --input_dir "${INPUT_DIR}" \
+      --output_dir "${OUTPUT_DIR}"
+    echo "---------------------------------------------------"
     
     TREC_DIR="runs/${SAFE_MODEL_NAME}/${SAFE_DATASET_ID}/"
     
@@ -99,14 +98,14 @@ for MODEL_NAME in "${MODEL_NAMES[@]}"; do
     echo "  ZERO_DIM: 0"
     echo "  Parameters: ${PARAMS}"
 
-    # eval python tool/query.py \
-    #   --ir-ds-query-path "${DATASET_ID}" \
-    #   --output-trec-name "${TREC_FILE}" \
-    #   --index-dir "${OUTPUT_DIR}" \
-    #   --zero-out-dims 0 \
-    #   --top-k 10 \
-    #   --model ${MODEL_NAME} \
-    #   ${PARAMS}
+    eval python tool/query.py \
+      --ir-ds-query-path "${DATASET_ID}" \
+      --output-trec-name "${TREC_FILE}" \
+      --index-dir "${OUTPUT_DIR}" \
+      --zero-out-dims 0 \
+      --top-k 10 \
+      --model ${MODEL_NAME} \
+      ${PARAMS}
 
     for ZERO_DIM in "${ZERO_DIMS[@]}"; do
       for PRF_K in "${PRF_KS[@]}"; do

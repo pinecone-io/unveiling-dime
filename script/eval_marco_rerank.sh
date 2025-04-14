@@ -2,14 +2,22 @@
 
 # 1. Define an array of model names
 MODEL_NAMES=(
-  # "facebook/contriever-msmarco"
-  "sentence-transformers/msmarco-distilbert-base-tas-b"
-  # "sentence-transformers/msmarco-roberta-base-ance-firstp"
-  # "intfloat/multilingual-e5-large"
+  # M3
+  BAAI/bge-m3
+  # mxbai
+  mixedbread-ai/mxbai-embed-large-v1
+  # E5  
+  "intfloat/multilingual-e5-large"
+  # Snowflake
   "Snowflake/snowflake-arctic-embed-l-v2.0"
-  # mixedbread-ai/mxbai-embed-large-v1
-  # BAAI/bge-m3
+  # ANCE
+  "sentence-transformers/msmarco-roberta-base-ance-firstp"
+  # Contriever
+  "facebook/contriever-msmarco"
+  # TAS-B
+  "sentence-transformers/msmarco-distilbert-base-tas-b"
 )
+
 DATASET_IDS=(
   "msmarco-passage"
 )
