@@ -1,4 +1,7 @@
-# Unveiling DIME
+<p align="center">
+    <img width="300px" src="logo.jpg" />
+    <h1 align="center">Unveiling DIME</h1>
+</p>
 
 ## Reproducibility, Generalizability, and Formal Analysis of Dimension Importance Estimation for Dense Retrieval
 
